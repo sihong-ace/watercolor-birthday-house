@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN" class="at-door">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4eedf">
+  <title>老房间 · 相片灯预览</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="at-door" data-interior-preview="true">
+  <section class="door-scene" aria-labelledby="door-title">
+    <div class="scene-heading"><span class="scene-eyebrow">老地方</span><h2 id="door-title">老房间</h2></div>
+    <button class="night-toggle" id="night-toggle" type="button" aria-pressed="false">看夜晚</button>
+    <div class="door-canvas" id="door-canvas"></div>
+    <p class="scene-status" id="scene-status" role="status"></p>
+    <div class="scene-footer"><span>拖动看看 · 滚轮靠近</span><button id="reset-view" type="button">回到全景</button></div>
+  </section>
+  <script src="assets/door-scene.js"></script>
+  <script>const preview=BirthdayDoor.mountInteriorScene(document.querySelector("#door-canvas"));addEventListener("pagehide",event=>{if(!event.persisted)preview.dispose();});</script>
+<script src="music.js"></script>
+<script src="guide.js"></script>
+</body>
+</html>

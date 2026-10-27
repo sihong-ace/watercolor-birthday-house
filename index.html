@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f4eedf">
+<title>回家看看 · 水彩涂鸦小屋</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="welcome">
+<section class="field" aria-label="淡彩稻田与老家风景">
+<img class="field-image" src="assets/doodles/countryside.png" alt="浅绿色稻田、远处的老家与柔和的天空" fetchpriority="high">
+<div class="family-avatar"><img src="assets/doodles/picnic.png" alt="虚构动物伙伴的水彩合影"></div>
+<svg class="rice-foreground" aria-hidden="true" viewBox="0 0 1400 250" preserveAspectRatio="xMidYMax slice"></svg>
+<span class="welcome-scroll-hint">往下走，回家看看</span>
+</section>
+<section class="invitation" aria-labelledby="welcome-title">
+<div class="invitation-copy"><h1 id="welcome-title">回家看看</h1><p>钥匙还放在老地方。</p></div>
+</section>
+</main>
+<section class="door-scene" id="door-scene" hidden aria-labelledby="door-title" tabindex="-1">
+<div class="scene-heading"><span class="scene-eyebrow">老地方</span><h2 id="door-title">到家了</h2></div>
+<button class="night-toggle" id="night-toggle" type="button" aria-pressed="false">看夜晚</button>
+<div class="door-canvas" id="door-canvas"></div>
+<p class="scene-status" id="scene-status" role="status"></p>
+<div class="scene-footer"><span>拖动看看 · 滚轮靠近</span><button id="reset-view" type="button">回到正面</button></div>
+</section>
+<div class="fade" aria-hidden="true"></div>
+<script src="assets/door-scene.js"></script>
+<script src="scene-bootstrap.js"></script>
+<script src="main.js"></script>
+<script src="music.js"></script>
+<script src="guide.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "images": [
+    {
+      "src": "assets/doodles/countryside.png",
+      "title": "田野来信"
+    },
+    {
+      "src": "assets/doodles/picnic.png",
+      "title": "动物野餐"
+    },
+    {
+      "src": "assets/doodles/memories.png",
+      "title": "午后小猫"
+    },
+    {
+      "src": "assets/doodles/birthday.png",
+      "title": "生日派对"
+    }
+  ],
+  "intervalMs": 4000
+}

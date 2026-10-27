@@ -1,0 +1,181 @@
+{
+  "version": 2,
+  "photos": [
+    {
+      "slot": 0,
+      "src": "assets/doodles/countryside.png",
+      "title": "田野来信 · 1",
+      "alt": "田野来信水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 1,
+      "src": "assets/doodles/picnic.png",
+      "title": "动物野餐 · 2",
+      "alt": "动物野餐水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 2,
+      "src": "assets/doodles/memories.png",
+      "title": "午后小猫 · 3",
+      "alt": "午后小猫水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 3,
+      "src": "assets/doodles/birthday.png",
+      "title": "生日派对 · 4",
+      "alt": "生日派对水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 4,
+      "src": "assets/doodles/countryside.png",
+      "title": "田野来信 · 5",
+      "alt": "田野来信水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 5,
+      "src": "assets/doodles/picnic.png",
+      "title": "动物野餐 · 6",
+      "alt": "动物野餐水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 6,
+      "src": "assets/doodles/memories.png",
+      "title": "午后小猫 · 7",
+      "alt": "午后小猫水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 7,
+      "src": "assets/doodles/birthday.png",
+      "title": "生日派对 · 8",
+      "alt": "生日派对水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 8,
+      "src": "assets/doodles/countryside.png",
+      "title": "田野来信 · 9",
+      "alt": "田野来信水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 9,
+      "src": "assets/doodles/picnic.png",
+      "title": "动物野餐 · 10",
+      "alt": "动物野餐水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 10,
+      "src": "assets/doodles/memories.png",
+      "title": "午后小猫 · 11",
+      "alt": "午后小猫水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 11,
+      "src": "assets/doodles/birthday.png",
+      "title": "生日派对 · 12",
+      "alt": "生日派对水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 12,
+      "src": "assets/doodles/countryside.png",
+      "title": "田野来信 · 13",
+      "alt": "田野来信水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 13,
+      "src": "assets/doodles/picnic.png",
+      "title": "动物野餐 · 14",
+      "alt": "动物野餐水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 14,
+      "src": "assets/doodles/memories.png",
+      "title": "午后小猫 · 15",
+      "alt": "午后小猫水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "slot": 15,
+      "src": "assets/doodles/birthday.png",
+      "title": "生日派对 · 16",
+      "alt": "生日派对水彩涂鸦",
+      "crop": {
+        "zoom": 1,
+        "x": 0,
+        "y": 0
+      }
+    }
+  ]
+}

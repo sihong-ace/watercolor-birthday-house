@@ -1,0 +1,11 @@
+import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+import fs from 'node:fs';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const require=createRequire(import.meta.url);
+const {build}=require('esbuild');
+const modules=path.resolve(path.dirname(require.resolve('three')),'../..');
+await build({entryPoints:[path.join(root,'src/door-scene.js')],outfile:path.join(root,'assets/door-scene.js'),bundle:true,format:'iife',globalName:'BirthdayDoor',minify:true,target:'es2022',nodePaths:[modules],legalComments:'eof'});
+fs.copyFileSync(path.join(modules,'three/LICENSE'),path.join(root,'assets/THREE-LICENSE.txt'));
+console.log('Built assets/door-scene.js');

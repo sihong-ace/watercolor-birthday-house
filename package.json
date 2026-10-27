@@ -1,0 +1,17 @@
+{
+  "name": "watercolor-birthday-house",
+  "version": "1.0.0",
+  "private": true,
+  "description": "水彩涂鸦小屋 · 非商业源码版",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "scripts": {
+    "build:scene": "node scripts/build-scene.mjs",
+    "dev": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.27.3"
+  }
+}
