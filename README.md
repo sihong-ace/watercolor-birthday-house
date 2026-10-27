@@ -4,6 +4,26 @@
 
 **这是非商业源码版。** 旋转木马改编自 [咕噜蛋Daria / Carousel Lamp](https://github.com/Daria1216/carousel-lamp)，保留上游非商业许可及署名。请阅读 [LICENSE.md](LICENSE.md) 和 [第三方说明](THIRD_PARTY_NOTICES.md)。
 
+## 效果预览
+
+以下为制作过程中的场景演示截图，展示空间布局与昼夜光照。截图中的照片挂片、电视画面、日历和门廊装饰等部分素材与本仓库的脱敏版本不同，请以实际运行内容为准。
+
+### 门廊 · 白天
+
+![门廊 · 白天场景演示](docs/screenshots/porch-day.png)
+
+### 门廊 · 夜晚
+
+![门廊 · 夜晚场景演示](docs/screenshots/porch-night.png)
+
+### 室内 · 白天
+
+![室内 · 白天场景演示](docs/screenshots/interior-day.png)
+
+### 室内 · 夜晚
+
+![室内 · 夜晚场景演示](docs/screenshots/interior-night.png)
+
 ## 直接打开
 
 Windows：解压整个文件夹，双击 `启动生日小屋.cmd`，保持打开的服务窗口运行。无需安装 Node.js；使用支持 WebGL 的现代浏览器。不能只发送 HTML，也不要直接双击 HTML 以 file:// 方式运行。
